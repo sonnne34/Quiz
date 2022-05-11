@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_light"
+    android:padding="5dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_select_av"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="@string/select_an_avatar"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/avatar_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_white"
+            android:contentDescription="@string/av_1"
+            android:padding="2dp"
+            android:src="@drawable/avatar_1"
+            app:layout_constraintBottom_toTopOf="@id/avatar_4"
+            app:layout_constraintEnd_toStartOf="@id/avatar_2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_select_av" />
+
+        <ImageButton
+            android:id="@+id/avatar_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_white"
+            android:contentDescription="@string/av_2"
+            android:padding="2dp"
+            android:src="@drawable/avatar_2"
+            app:layout_constraintBottom_toTopOf="@id/avatar_5"
+            app:layout_constraintEnd_toStartOf="@+id/avatar_3"
+            app:layout_constraintStart_toEndOf="@+id/avatar_1"
+            app:layout_constraintTop_toBottomOf="@id/tv_select_av" />
+
+        <ImageButton
+            android:id="@+id/avatar_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_white"
+            android:contentDescription="@string/av_3"
+            android:padding="2dp"
+            android:src="@drawable/avatar_3"
+            app:layout_constraintBottom_toTopOf="@id/avatar_6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/avatar_2"
+            app:layout_constraintTop_toBottomOf="@id/tv_select_av" />
+
+        <ImageButton
+            android:id="@+id/avatar_4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_white"
+            android:contentDescription="@string/av_4"
+            android:padding="2dp"
+            android:src="@drawable/avatar_4"
+            app:layout_constraintBottom_toTopOf="@id/avatar_7"
+            app:layout_constraintEnd_toStartOf="@+id/avatar_5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/avatar_1" />
+
+        <ImageButton
+            android:id="@+id/avatar_5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_white"
+            android:contentDescription="@string/av_5"
+            android:padding="2dp"
+            android:src="@drawable/avatar_5"
+            app:layout_constraintBottom_toTopOf="@id/avatar_8"
+            app:layout_constraintEnd_toStartOf="@id/avatar_6"
+            app:layout_constraintStart_toEndOf="@+id/avatar_4"
+            app:layout_constraintTop_toBottomOf="@+id/avatar_2" />
+
+        <ImageButton
+            android:id="@+id/avatar_6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_white"
+            android:contentDescription="@string/av_6"
+            android:padding="2dp"
+            android:src="@drawable/avatar_6"
+            app:layout_constraintBottom_toTopOf="@id/avatar_9"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/avatar_5"
+            app:layout_constraintTop_toBottomOf="@+id/avatar_3" />
+
+        <ImageButton
+            android:id="@+id/avatar_7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_white"
+            android:contentDescription="@string/av_7"
+            android:padding="2dp"
+            android:src="@drawable/avatar_7"
+            app:layout_constraintBottom_toTopOf="@id/ll_et_nik"
+            app:layout_constraintEnd_toStartOf="@id/avatar_8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/avatar_4" />
+
+        <ImageButton
+            android:id="@+id/avatar_8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_white"
+            android:contentDescription="@string/av_8"
+            android:padding="2dp"
+            android:src="@drawable/avatar_8"
+            app:layout_constraintBottom_toTopOf="@id/ll_et_nik"
+            app:layout_constraintEnd_toStartOf="@id/avatar_9"
+            app:layout_constraintStart_toEndOf="@+id/avatar_7"
+            app:layout_constraintTop_toBottomOf="@+id/avatar_5" />
+
+        <ImageButton
+            android:id="@+id/avatar_9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_white"
+            android:contentDescription="@string/av_9"
+            android:padding="2dp"
+            android:src="@drawable/avatar_9"
+            app:layout_constraintBottom_toTopOf="@id/ll_et_nik"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/avatar_8"
+            app:layout_constraintTop_toBottomOf="@+id/avatar_6" />
+
+        <LinearLayout
+            android:id="@+id/ll_et_nik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/avatar_8">
+
+            <EditText
+                android:id="@+id/et_nickname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:autofillHints="name"
+                android:background="@color/icons"
+                android:gravity="center"
+                android:hint="@string/your_nickname"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textColor="@color/accent" />
+
+            <Button
+                android:id="@+id/btn_et_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="@string/btn_ok" />
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

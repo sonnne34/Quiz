@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="ic_menu">50dp</string>
+    <string name="btn_profile">Profile</string>
+    <string name="btn_play">Play</string>
+    <string name="score_correct_answers">Correct answers: %s</string>
+    <string name="score_incorrect">Incorrect answers: %s</string>
+    <string name="retry_play">Play again</string>
+    <string name="retry_menu">Main menu</string>
+    <string name="tv_timer">00:00</string>
+    <string name="question_tv">Question</string>
+    <string name="answer_one">AnswerOne</string>
+    <string name="answer_two">AnswerTwo</string>
+    <string name="answer_three">AnswerThree</string>
+    <string name="answer_four">AnswerFour</string>
+    <string name="next_button">NEXT</string>
+    <string name="icon_question">Icon Question</string>
+    <string name="icon_logo">Icon Logo</string>
+    <string name="select_an_avatar">Select an avatar:</string>
+    <string name="av_1">Blue flower</string>
+    <string name="av_2">Cat</string>
+    <string name="av_3">User outline</string>
+    <string name="av_4">Woman</string>
+    <string name="av_5">Funny man in a hat</string>
+    <string name="av_6">Husky</string>
+    <string name="av_7">Man</string>
+    <string name="av_8">Diver</string>
+    <string name="av_9">Secretive</string>
+    <string name="your_nickname">your nickname</string>
+    <string name="nickname">No nickname</string>
+    <string name="btn_ok">OK</string>
+    <string name="selected_avatar">Selected avatar</string>
+    <string name="btn_save">Save</string>
+    <string name="ic_result">Sad little man or a Cup</string>
+</resources>
