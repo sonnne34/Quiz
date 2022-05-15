@@ -1,5 +1,5 @@
 # Quiz
-Game
+Game.
 
 ![m_Quiz1](https://user-images.githubusercontent.com/60262104/168338175-60476179-0ce6-43d1-b55d-175a78271eed.png)
 ![m_Quiz2](https://user-images.githubusercontent.com/60262104/168338184-36d91926-08fd-438b-a0d1-d5076461ad7a.png)
